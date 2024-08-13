@@ -1,7 +1,5 @@
 # terraform-aws-react-nodejs
 
-# Terraform Infrastructure Setup
-
 This repository contains Terraform code for automating the deployment of a secure, multi-tenant infrastructure. The infrastructure includes a React-based front-end, a NodeJS backend, Postgres (via Amazon RDS), and message queues like SQS.
 
 ## Project Structure
