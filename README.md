@@ -34,6 +34,10 @@ This file defines the input variables for the Terraform configuration. These var
 ### 6. `variable.tfvars`
 Edit the variable.tfvars file to customize the deployment, such as specifying the AWS region, instance type, and database configuration.
 
+## Output from react based frontend
+
+![image](https://github.com/user-attachments/assets/94b57c4b-4cd4-4c9e-8e37-63975e21b088)
+
 ## Usage
 
 ### Prerequisites
