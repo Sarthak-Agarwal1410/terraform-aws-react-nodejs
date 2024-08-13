@@ -42,17 +42,22 @@ Edit the variable.tfvars file to customize the deployment, such as specifying th
 
 ### Steps
 
-1. **Initialize Terraform**
+1. **Initialize Terraform:**
 Initialize the working directory containing the Terraform configuration files.
 
 ```terraform init```
 
-2. **Plan the Infrastructure**
+2. **Plan the Infrastructure:**
 Generate and review an execution plan to see what Terraform will do when you apply the configuration.
 
 ```terraform plan --var-file=variables.tfvars```
 
-3. **Apply the Infrastructure**
+3. **Apply the Infrastructure:**
 Apply the changes required to reach the desired state of the configuration.
 
 ```terraform apply --var-file=variables.tfvars```
+
+4. **Destroy the Infrastructure:**
+Destroys the created Infrastructure.
+
+```terraform destroy --var-file=variables.tfvars```
